@@ -1,5 +1,5 @@
 [Home](index.md)
-[Contact](contact.md)
+[Data](data.md)
 [Download](download.md)
 
 [gimmick:theme](spacelab)
