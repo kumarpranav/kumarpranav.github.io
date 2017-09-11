@@ -103,6 +103,17 @@ Column Name|Type of data|Contains null values|Unique values|Smallest value|Large
 ## C_TITLE
 Column Name|Type of data|Contains null values|Unique values|Smallest value|Largest value|Sum|Mean|Median|StDev|Most common values
 ----|----|----|----|----|----|----|----|----|----|----|
+ **DH_ID**|Number|False|25820|364,267|17,306,151|245,561,930,173|9,510,531.765|6,112,185.5|5,783,832.093|2,232,085 (1x), 3,022,753 (1x), 3,911,628 (1x), 3,541,441 (1x), 3,675,176 (1x)
+ **DH_PRODREG_ID**|Number|False|12910|10,947|19,079,801|311,594,817,074|12,067,963.481|11,122,403.5|5,573,786.514|867,423 (2x), 488,409 (2x), 4,711,481 (2x), 4,357,479 (2x), 4,260,921 (2x)
+ **DH_TITLE_TYPE_ID**|Number|False|2|32|37|890,790|34.5|34.5|2.5|32 (12910x), 37 (12910x)
+ **TITLE_TEXT**|Text|False|20046|-|-|-|-|-|-|Intermediate Accounting, Sixteenth Edition BinderReady Version (11x), Intermediate Acctg 16e BRV (11x), Cybersecurity Law (11x)
+ **PRIMARY_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
+ **START_DATE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
+ **END_DATE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
+ **DH_SRC_LANGUAGE_ID**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
+ **DELETED_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
+ **DH_PRODTYPE_ID**|Boolean|False|1|-|-|-|-|-|-|True (25820x)
+ **SOURCE_LAST_UPDATED**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (25820x)
 ## ISBN_US
 Column Name|Type of data|Contains null values|Unique values|Smallest value|Largest value|Sum|Mean|Median|StDev|Most common values
 ----|----|----|----|----|----|----|----|----|----|----|
@@ -124,6 +135,18 @@ Column Name|Type of data|Contains null values|Unique values|Smallest value|Large
 ## C_PRODUCT_EXTENSION
 Column Name|Type of data|Contains null values|Unique values|Smallest value|Largest value|Sum|Mean|Median|StDev|Most common values
 ----|----|----|----|----|----|----|----|----|----|----|
+ **DH_ID**|Number|False|119895|1,344,074|177,871,504|13,865,892,181,279|115,650,295.519|122,340,589|63,642,197.031|15,274,132 (1x), 15,925,830 (1x), 15,925,831 (1x), 20,753,769 (1x), 15,984,583 (1x)
+ **DH_PRODREG_ID**|Number|False|12910|10,947|19,079,801|1,470,114,365,101|12,261,682.014|11,125,467|5,559,892.13|18,422,063 (13x), 18,422,705 (13x), 18,720,945 (13x), 18,884,817 (13x), 18,722,266 (13x)
+ **DH_EXT_ID**|Number|False|13|38|878|44,487,627|371.055|48|407.447|871 (12910x), 41 (12910x), 40 (12910x), 48 (12910x), 38 (12908x)
+ **EXT_VALUE**|Text|True (excluded from calculations)|2112|-|-|-|-|-|-|0.000000000000000 (25115x), None (17468x), Y (15866x), 1 (6892x), N (3807x)
+ **EXT_DATE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **START_DATE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **END_DATE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **PRIMARY_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **EXT_CODE**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **DELETED_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
+ **DH_PRODTYPE_ID**|Boolean|False|1|-|-|-|-|-|-|True (119895x)
+ **SOURCE_LAST_UPDATED**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (119895x)
 ## C_PRODUCT_GROUP
 Column Name|Type of data|Contains null values|Unique values|Smallest value|Largest value|Sum|Mean|Median|StDev|Most common values
 ----|----|----|----|----|----|----|----|----|----|----|
@@ -158,4 +181,3 @@ Column Name|Type of data|Contains null values|Unique values|Smallest value|Large
  **PRIMARY_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (12914x)
  **DELETED_IND**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (12914x)
  **SOURCE_LAST_UPDATED**|Boolean|True (excluded from calculations)|1|-|-|-|-|-|-|None (12914x)
-
