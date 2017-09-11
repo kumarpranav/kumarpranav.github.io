@@ -16,7 +16,7 @@ Article | ...
 
 ## Source Systems
 
-1. [PDH (Product Data Hub)](https://google.com)
+1. [PDH (Product Data Hub)](pdh.md)
 1. [Coltran](https://google.com)
 1. [GBPM](https://google.com)
 1. [GCore](https://google.com)
